@@ -33,11 +33,10 @@ public class Rectangle extends Shape {
         
     }
 
-    public boolean getArea() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+  
     }
           
             
-    }
+    
     
     
