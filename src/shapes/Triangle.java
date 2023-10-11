@@ -46,9 +46,17 @@ public class Triangle extends Shape{
     public void setColour(String colour) {
  
             if (colour.equals("Blue")) {
-                
+                this.colour = "Red";
+            }else {
+                this.colour = "colour";
             }
-        
+            
+    
     }
+        
+    @Override
+     public String toString() {
+        return "Hello! Im a triangle with the colour of: " + colour;
+     }
     
 }
